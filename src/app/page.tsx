@@ -7,6 +7,7 @@ import styles from './page.module.scss';
 import heroimg from '@/images/adorable-dog-park-nature-with-owner.png';
 import FeaturedProductsComponent from '@/components/Featured-Products/FeaturedProducts';
 import InstagramFeed from '@/components/InstagramFeed/InstagramFeed';
+import Aboutsec from '@/components/About-Sec/about-sec';
 
 const HomePage = () => {
   const [showPopup, setShowPopup] = useState(true);
@@ -16,6 +17,7 @@ const HomePage = () => {
   return (
     <main className={styles.main}>
       <Image src={heroimg} className="w-100" alt="Hero Image" />
+      <Aboutsec/>
       <FeaturedProductsComponent image={''} title={''} price={''} />
       <InstagramFeed />
       <EmailSubscriptionPopup show={showPopup} handleClose={handleClose} />
