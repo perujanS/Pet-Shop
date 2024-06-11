@@ -1,0 +1,65 @@
+.Homeshopsubheading{
+  text-align: center;
+  font: normal normal 200 16px/25px Playpen Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.Homeshopheading{
+  text-align: center;
+  font: normal normal bold 40px/25px Playpen Sans;
+  letter-spacing: 0px;
+  color: #543000;
+  opacity: 1;
+  margin-bottom: 8%;
+}
+
+.reviews{
+  padding-left: 150px;
+  margin-top: 80px;
+}
+
+.review{
+  text-align: left;
+  font: normal normal normal 16px/25px Playpen Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.reviewname{
+  //text-align: right;
+  font: normal normal normal 12px/25px Playpen Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.profile{
+  width: 276px;
+  height: 323px;
+}
+
+.profilestar{
+  width: 20px;
+}
+
+
+
+
+@media (max-width: 700px) {
+
+  .reviews{
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+
+  .profile{
+    width: 100%;
+    height: 360px;
+    margin-top: 40px;
+  }
+}
