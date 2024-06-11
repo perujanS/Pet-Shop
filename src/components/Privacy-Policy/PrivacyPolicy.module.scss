@@ -1,0 +1,25 @@
+@import '../../styles/variables';
+
+
+.heading{
+    font-family: $primary-font;
+    font-size: 16px;
+    color: $primary-color;
+    padding-bottom: 20px;
+    
+}
+.para{
+    font-family: $primary-font;
+    font-size: 16px;
+    color: $primary-color;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.listItem{
+    list-style: none;
+    font-family: $primary-font;
+    font-size: 16px;
+    color: $primary-color;
+    font-weight: 300;
+    
+}
