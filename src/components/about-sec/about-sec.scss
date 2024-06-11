@@ -1,0 +1,118 @@
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p,a{
+    font-size: 16px;
+}
+
+@media (max-width:576px) {
+    p,a{
+        font-size: 12px;
+    }
+}
+
+.about-us{
+    margin: 100px auto;
+}
+
+.about-home-main{
+    margin: 100px auto;
+}
+
+.about-home-head h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #543000;
+}
+  
+.about-home-btn {
+    border-radius: 30px;
+    padding: 20px 50px ;
+    background-color: #543000 ;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.about-home-btn:hover {
+    background-color:#FFFFFF ;
+    border: 2px solid #543001;
+    border-radius: 30px;
+    color: #543000;
+    font-weight: bold;
+}
+
+.about-home-main-head{
+    color: #227E00;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about-home-main-para{
+    color: #000000;
+    font-size: 16px;
+    font-weight:300;
+}
+
+.about-home-card .card{
+    max-width: 260px;
+    height:300px !important;
+    background: #f1ede6;
+    border-radius: 15px;
+    border: none;
+}
+
+.about-home-card .card-img{
+    max-width: 168px;
+}
+
+.about-home-card .card-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (max-width:992px) {
+    .about-home-card .card{
+        max-width: 360px;
+        height: 380px !important;
+        background: #f1ede6;
+        border-radius: 15px;
+        border: none;
+    }
+
+    .about-home-card .card-img{
+        max-width: 200px !important;
+    }
+}
+
+@media (max-width:767px) {
+
+    .about-home-head h2{
+        font-size: 25px;
+    }
+
+    .about-home-main-head{
+        font-size: 20px;
+    }
+
+    .about-home-card .card{
+        max-width:520px;
+        height: 390px !important;
+        background: #f1ede6;
+        border-radius: 15px;
+        border: none;
+    }
+
+    .about-home-card .card-img{
+        max-width: 200px !important;
+    }
+
+}
