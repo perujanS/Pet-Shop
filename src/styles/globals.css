@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap");
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+body {
+  font-family: "Playpen Sans", cursive;
+}/*# sourceMappingURL=globals.css.map */

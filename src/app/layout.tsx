@@ -19,12 +19,14 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full bg-gray-50">
       <head>
-   
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" />
-<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet"/>
-        
-    
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap"
+          rel="stylesheet"
+        />
+
+        <link rel="icon" href="../../../Orange___Green_Illustration_Pet_Shop_Logo__2_-removebg-preview_2x.ico" />
       </head>
       <body>
         <Toaster

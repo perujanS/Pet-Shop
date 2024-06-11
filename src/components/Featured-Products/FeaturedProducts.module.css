@@ -1,0 +1,21 @@
+.Heading {
+  color: #543000;
+  font-family: "Playpen Sans", cursive;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.SubHeading {
+  font-family: "Playpen Sans", cursive;
+  color: #000000;
+}
+
+.shopMore {
+  background-color: #543000;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  width: 185px;
+  height: 62px;
+  font-family: "Playpen Sans", cursive;
+}/*# sourceMappingURL=FeaturedProducts.module.css.map */

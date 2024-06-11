@@ -1,0 +1,17 @@
+.productCard {
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+  border: none;
+  font-family: "Playpen Sans", cursive;
+}
+.productCard:hover {
+  transform: translateY(-5px);
+}
+.productCard .card-body {
+  padding: 16px;
+}
+.productCard .price {
+  color: #217E00;
+  font-size: 1.2em;
+  font-family: "Playpen Sans", cursive;
+}/*# sourceMappingURL=ProductCard.module.css.map */

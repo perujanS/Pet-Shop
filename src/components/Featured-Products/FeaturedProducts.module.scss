@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+
+
+.Heading{
+    color: $primary-color;
+    font-family: $primary-font;
+    font-size: 40px;
+    font-weight: 700;
+}
+.SubHeading{
+    font-family: $primary-font;
+    color: #000000;
+    
+}
+.shopMore{
+    background-color: $primary-color;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    width: 185px;
+    height: 62px;
+    font-family: $primary-font;
+}

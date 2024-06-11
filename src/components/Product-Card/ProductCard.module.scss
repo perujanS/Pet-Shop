@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+
+
+.productCard {
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+    border: none;
+    font-family: $primary-font;
+    
+    &:hover {
+      transform: translateY(-5px);
+    }
+    .card-body {
+      padding: 16px;
+      
+    }
+    .price {
+      color:#217E00;
+      font-size: 1.2em;
+      font-family: $primary-font;
+    }
+  }
+  
