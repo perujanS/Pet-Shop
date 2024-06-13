@@ -3,8 +3,11 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 // @ts-ignore
 import styles from "./Testimonials.module.scss";
-import img from "../../images/24.png";
+import img from "../../images/13.png";
 import svg from "../../images/2.svg";
+import prev from "../../images/3.svg";
+import next from "../../images/4.svg";
+import star from "../../images/5.svg";
 import {Carousel} from "react-bootstrap";
 
 
@@ -14,7 +17,7 @@ function Testimonials() {
             <div className="row">
                 <h5 className= {styles.Homeshopsubheading}>Shop</h5>
                 <h1 className={styles.Homeshopheading}>Furry Friends’ Raves</h1>
-            <Carousel indicators={false} controls={true}>
+            <Carousel indicators={false} controls={true} nextIcon={<img src={prev.src}></img>} prevIcon={<img src={prev.src}></img>} interval={100000000000000}>
                 <Carousel.Item>
                     <div className="container mb-5">
                         <div className="row">
@@ -41,7 +44,7 @@ function Testimonials() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-12 col-md-6">
+                            <div className="col-12 col-md-6 px-5">
                                 <img src={img.src} className={styles.profile}></img>
                             </div>
                         </div>
@@ -73,7 +76,7 @@ function Testimonials() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-12 col-md-6">
+                            <div className="col-12 col-md-6 px-5">
                                 <img src={img.src} className={styles.profile}></img>
                             </div>
                         </div>

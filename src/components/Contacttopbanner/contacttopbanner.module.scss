@@ -1,0 +1,33 @@
+.banner{
+    width: 100%;
+}
+
+.herotext {
+    margin-top: -226px;
+    padding-bottom: 116px;
+  }
+
+  .text{
+    text-align: left;
+font: normal normal bold 60px/95px Playpen Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+  }
+
+  @media only screen and (max-width: 991px) {
+    .herotext {
+      margin-top: -209px;
+      padding-bottom: 53px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .herotext {
+      padding-bottom: 79px;
+    }
+  }
+
+
+
+

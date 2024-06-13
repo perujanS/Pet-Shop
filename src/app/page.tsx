@@ -1,12 +1,13 @@
 "use client";
 import React from "react";
-import styles from "./page.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import styles from "./page.module.css";
 import img from "@/Images/1.png";
 import {Carousel} from "react-bootstrap";
 import Homeshop from "@/components/Homeshop/Homeshop";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Footer from "@/components/Footer/Footer";
+
 
 function TopBanner() {
     return (

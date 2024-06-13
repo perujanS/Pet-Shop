@@ -15,10 +15,11 @@
   color: #543000;
   opacity: 1;
   margin-bottom: 8%;
+  line-height: 50px;
 }
 
 .reviews{
-  padding-left: 150px;
+  padding-left: 240px;
   margin-top: 80px;
 }
 
@@ -53,7 +54,7 @@
 @media (max-width: 700px) {
 
   .reviews{
-    padding-left: 0px;
+    padding-left: 32px;
     margin-top: 10px;
   }
 

@@ -106,5 +106,11 @@ a {
         color-scheme: dark;
     }
 }
+.breadcrumb-item a{
+    color: red !important;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content:  ">" !important;
+}
 
 

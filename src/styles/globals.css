@@ -4,5 +4,9 @@ body {
 
 .layout {
   font-family: 'Playfair Display', serif; }
+  
+  .breadcrumb-item a{
+    color: red !important;
+}
 
 /*# sourceMappingURL=globals.css.map */
