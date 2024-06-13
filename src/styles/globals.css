@@ -4,3 +4,14 @@
 body {
   font-family: "Playpen Sans", cursive;
 }/*# sourceMappingURL=globals.css.map */
+body {
+  font-family: "Playpen Sans", cursive; }
+
+.layout {
+  font-family: 'Playfair Display', serif; }
+
+  .breadcrumb-item a{
+    color: red !important;
+}
+
+/*# sourceMappingURL=globals.css.map */

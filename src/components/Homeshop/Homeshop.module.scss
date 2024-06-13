@@ -1,0 +1,71 @@
+.Homeshopsubheading{
+  text-align: center;
+  font: normal normal 200 16px/25px Playpen Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.Homeshopheading{
+  text-align: center;
+  font: normal normal bold 40px/25px Playpen Sans;
+  letter-spacing: 0px;
+  color: #543000;
+  opacity: 1;
+  margin-bottom: 8%;
+  line-height: 50px;
+}
+
+.cuurency{
+  color: #217E00;
+  font: normal normal bold 20px/25px Playpen Sans;
+  letter-spacing: 0px;
+  color: #217E00;
+  opacity: 1;
+}
+
+.productname{
+  text-align: left;
+  font: normal normal 600 16px/25px Playpen Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.product{
+  width: 100%;
+}
+
+.homeshopbtn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.btnshop{
+  color: white;
+  background-color: #543000;
+  font: normal normal bold 16px/25px Playpen Sans;
+  border-radius: 30px;
+  opacity: 1;
+  width: 179px;
+  height: 62px;
+  outline: none;
+  border: none;
+}
+
+.btnshop:hover{
+  background-color: transparent;
+  border:2px solid #543000;
+  color: #543000;
+}
+.btnshop:focus-visible{
+  outline: none;
+}
+
+@media (max-width: 700px) {
+  .btn__shop{
+    width: 40% !important;
+  }
+}

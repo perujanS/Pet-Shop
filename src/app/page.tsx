@@ -1,47 +1,46 @@
-// src/pages/index.tsx
 "use client";
-import "./page.scss";
-import styles from './page.module.css'
-import React,{ useState, useEffect } from "react";
-import EmailSubscriptionPopup from "@/components/EmailSubscriptionPopup/EmailSubscriptionPopup";
-import Image from "next/image"
-import heroimg from "@/images/adorable-dog-park-nature-with-owner.png";
-import FeaturedProductsComponent from "@/components/Featured-Products/FeaturedProducts";
-import InstagramFeed from "@/components/InstagramFeed/InstagramFeed";
-import Aboutsec from "@/components/About-Sec/about-sec";
-import Blogsec from "@/components/Blog-Sec/blog-sec";
-import Newsletter from "@/components/NewsLetter/newsLetter";
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import styles from "./page.module.css";
+import img from "@/Images/1.png";
+import {Carousel} from "react-bootstrap";
+import Homeshop from "@/components/Homeshop/Homeshop";
+import Testimonials from "@/components/Testimonials/Testimonials";
+import Footer from "@/components/Footer/Footer";
 
 
-const HomePage = () => {
-  const [showPopup, setShowPopup] = useState(true);
-
-  const handleClose = () => setShowPopup(false);
-
-  return (
-    <main className={styles.main}>
-      <Image src={heroimg} className="w-100" alt="Hero Image" />
-      <Aboutsec />
-      <FeaturedProductsComponent image={""} title={""} price={""} />
-      <section className="promotion-banner">
-        <div className="bg-img" style={{ backgroundImage: `url(${'/images/12.png'})`, backgroundSize: 'cover' }}>
-          <div className="container">
-            <div className="promotion-banner-main text-center">
-              <p>Buy 1 Get 1</p>
-              <h2 className="my-3">Save 50% Off</h2>
-              <p>Safe and effective products</p>
-              <h6 className="mt-4 mb-5">Shop for your pet</h6>
-              <a href="#" className="promotion-banner-btn">Shop Now</a>
-            </div>
-          </div>
+function TopBanner() {
+    return (
+        <div className={styles.background}>
+            <Carousel indicators={false} controls={false}>
+                <Carousel.Item>
+                    <img src={img.src} className={styles.background}></img>
+                    <div className={styles.content}>
+                        <h1 className={styles.Title}>Furry Friends Haven</h1>
+                        <p className={styles.paragraph}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor <br/> incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <button className={styles.btn_shop}>Shop Now</button>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={img.src} className={styles.background}></img>
+                    <div className={styles.content}>
+                        <h1 className={styles.Title}>Furry Friends Haven</h1>
+                        <p className={styles.paragraph}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor <br/> incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <button className={styles.btn_shop}>Shop Now</button>
+                    </div>
+                </Carousel.Item>
+            </Carousel>
+            <Homeshop/>
+            <Testimonials/>
+            <Footer/>
         </div>
-      </section>
-      <Blogsec />
-      <InstagramFeed />
-      <EmailSubscriptionPopup show={showPopup} handleClose={handleClose} />
-      <Newsletter/>
-    </main>
-  );
-};
+    );
+}
 
-export default HomePage;
+export default TopBanner;

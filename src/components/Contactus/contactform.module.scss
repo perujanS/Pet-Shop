@@ -1,0 +1,147 @@
+.formsection{
+  margin-top: 100px;
+}
+.contactimg{
+    height: 100vh;
+    margin-bottom: 25px;
+  }
+
+  .dogimage{
+    width: 95%;
+    height: 95%;
+  }
+  
+  .imagecontainerr {
+    position: relative;
+    height: 100%;
+    text-align: left;
+  }
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+
+
+  .contactdetails{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 50px;
+  }
+
+  .detail{
+    text-align: left;
+  }
+  
+  .padding{
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+  
+  .contactForm {
+    color: #7B5038;
+    padding: 20px;
+    border-radius: 0px;
+    width: 95%;
+    height: 95%;
+    background: #F1EDE6 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .form {
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .textarea {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .textareaa {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    height: 130px;
+  }
+  
+  
+  .buttoncontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    /* margin-bottom: 30px; */
+  }
+  .button{
+    color: white;
+    background-color: #543000;
+    font: normal normal bold 16px/25px Playpen Sans;
+    border-radius: 30px;
+    opacity: 1;
+    width: 179px;
+    height: 62px;
+    outline: none;
+    border: none;
+  }
+  
+  .button:hover{
+    background-color: transparent;
+    border:2px solid #543000;
+    color: #543000;
+  }
+  .button:focus-visible{
+    outline: none;
+  }
+  
+  
+  
+  
+  
+  /* Mobile */
+  @media (max-width: 700px) {
+   }
+  
+  /* Tablet and Smaller Desktop */
+  @media (min-width: 701px) and (max-width: 1120px) {
+    
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .vercelLogo {
+      filter: invert(1);
+    }
+  
+    .logo {
+      filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+    }
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
+.contactdetails a {
+  text-decoration: none;
+  color: #F1EDE6 !important;
+}
+  
