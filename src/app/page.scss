@@ -1,0 +1,54 @@
+// .main {
+//   display: flex;
+//   width: 100%;
+//   min-height: 100vh;
+// } 
+
+$primary-color: #543000;
+$primary-font: 'Playpen Sans', sans-serif;
+
+// --promotion-banner--
+
+.promotion-banner{
+  background-image: url("/images/12.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 607px;
+  width: 100%;
+}
+
+.promotion-banner-main p{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.promotion-banner-main h2{
+  color: $primary-color;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.promotion-banner-main h6{
+  color: #217E00;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.promotion-banner-btn{
+  background-color: $primary-color;
+  color: #FFFFFF;
+  padding:20px 50px ;
+  border-radius: 30px;
+  font-weight:600 ;
+}
+
+.promotion-banner-btn:hover{
+  border: 3px solid #543000;
+  background-color: transparent;
+  color: $primary-color;
+  font-weight:800 ;
+}
+
+.formC{
+  border-radius: 0%;
+}
