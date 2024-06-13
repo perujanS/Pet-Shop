@@ -1,0 +1,35 @@
+/* styles/Navbar.module.scss */
+.navbar-custom {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar-custom .navbar-brand img {
+  height: 50px; /* Adjust based on your logo size */
+}
+.navbar-custom .nav-link {
+  color: white !important;
+  font-weight: bold;
+  font-family: "Playpen Sans", cursive;
+}
+.navbar-custom .nav-link:hover {
+  color: #f0e68c !important; /* Adjust hover color */
+}
+.navbar-custom .nav-link .cartIcon {
+  font-size: 50px;
+  color: rgb(255, 255, 255) !important;
+}
+
+.navbar {
+  position: absolute !important;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+  font-family: "Playpen Sans", cursive;
+  color: white !important;
+}/*# sourceMappingURL=Navbar.module.css.map */

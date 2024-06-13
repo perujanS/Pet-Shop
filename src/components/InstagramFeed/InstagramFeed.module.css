@@ -1,0 +1,22 @@
+.instagramFeed {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.instagramFeed .title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.instagramFeed .slide {
+  padding: 10px;
+}
+.instagramFeed .image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.instagramFeed .caption {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #543000;
+}/*# sourceMappingURL=InstagramFeed.module.css.map */

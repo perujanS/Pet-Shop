@@ -9,7 +9,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 const NavbarComponent: React.FC = () => {
   return (
     <Navbar expand="lg" className={`${styles.navbar}`} variant="dark">
-      <Container> =
+      <Container> 
         <Navbar.Brand href="#">
           <img src={img.src} height="68px" alt="Logo" />
         </Navbar.Brand>
